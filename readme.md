@@ -18,13 +18,13 @@ To fix that, I have created a script that pulls the list of all the artists that
 I gather songs on playlists according to a variety of characteristics. I also wanted to merge some of my playlists to create a Car Playlist. Thats why I wrote another script. It pulls the list of all user's playlists, then, after choosing some of them, pulls all the songs that are on those playlists. After that it creates a new playlist and add those songs to it.
 
 
-## 🗄️ Authorization and authentication
+## 🔗 Authorization and authentication
 
 Spotify API requests creating an app on it's [Spotify fot Developers](developer.spotify.com) website. After that a user is free to use the API.  
 I used [Authorization Code Flow](https://developer.spotify.com/documentation/general/guides/authorization/code-flow/) to get authorization code, token and refresh token.  
 
 
-## 🔍 Using the Web API
+## 🗄️ Using the Web API
 
 Both applications in this notebook follow the same principles. Well written [Spotify Documentation](https://developer.spotify.com/documentation/web-api/) was very helpful in understanding the process.  
 I used GET method to pull the data from Spotify servers (list of songs, artists or playlists) and POST method to create data on Spotify servers (authentication process, creating playlists and adding songs to playlist).  
